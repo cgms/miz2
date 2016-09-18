@@ -1,0 +1,25 @@
+nav#site-nav.navbar.navbar-fixed-top.navbar-custom
+  .container
+    .navbar-header
+      .site-branding
+        a.logo(href='http://mizzyevents.co.uk')
+          img(src='/images/mizuno/miz-logo-small_white.png', alt='Logo')
+        a.logo(smooth-scroll-jquery='', href='',  target='site-header') {{ev.title}}
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-items', aria-expanded='false')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navbar-items.collapse.navbar-collapse(data-spy='scroll', data-target='#site-nav')
+      ul.nav.navbar-nav.navbar-right
+        // navigation menu
+        li.navbutton
+          a(smooth-scroll-jquery='', href='', target='about') About
+        li.navbutton
+          a(smooth-scroll-jquery='', href='',  target='schedule') Schedule
+        li.navbutton
+          a(smooth-scroll-jquery='', href='',  target='registration') Register
+        li.navbutton(ng-if="photos.length > 0 ")
+          a(smooth-scroll-jquery='', href='', target='gallery') Gallery
+        li.navbutton
+          a(smooth-scroll-jquery='', href='', target='location') Location

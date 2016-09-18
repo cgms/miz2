@@ -1,0 +1,316 @@
+{
+    "events": [
+        {
+            "name": "oxfordshire",
+            "title": "Mizuno Forum Southern Event",
+            "date": "25 - 26 June",
+            "course": "The Oxfordshire",
+            "county": "Oxfordshire",
+            "description": "Each year the members of the Mizuno Golf Forum get together to thrash round a golf course and find out just who can backup their online chat with real world endeavour! As long as you are a member of the forum you can come along. We have designed the weekend with some flexibility if you can't be there for the whole thing.",
+            "bullets": [
+                {
+                    "info": "Team competition on day 1"
+                },
+                {
+                    "info": "Evening meal and entertainment"
+                },
+                {
+                    "info": "Overnight stay"
+                },
+                {
+                    "info": "Singles competition, with big prizes available!"
+                }
+            ],
+            "costs": [
+                {
+                    "option": "2 Rounds, 1 Night",
+                    "cost": "Â£200"
+                },
+                {
+                    "option": "2 Rounds, 2 Nights",
+                    "cost": "Â£280"
+                },
+                {
+                    "option": "Sunday round, no stay",
+                    "cost": "Â£70"
+                }
+            ],
+            "attendees": [
+                {
+                    "uname": "chrism_s",
+                    "handicap": "24"
+                },
+                {
+                    "uname": "tonytim8",
+                    "handicap": "16"
+                },
+                {
+                    "uname": "hairy essex bloke",
+                    "handicap": "11"
+                },
+                {
+                    "uname": "jamma",
+                    "handicap": "10"
+                },
+                {
+                    "uname": "drunkenmunky",
+                    "handicap": "16"
+                },
+                {
+                    "uname": "eddzoid",
+                    "handicap": "17"
+                },
+                {
+                    "uname": "Nurburgring151",
+                    "handicap": "15"
+                },
+                {
+                    "uname": "Wotsit",
+                    "handicap": "18"
+                }
+            ],
+            "schedule": [
+                {
+                    "starttime": "10:00",
+                    "endtime": "10:30",
+                    "title": "Arrive & Breakfast",
+                    "subtitle": "Spike Bar"
+                },
+                {
+                    "starttime": "10:30",
+                    "endtime": "11:45",
+                    "title": "Warmup",
+                    "subtitle": "Range"
+                },
+                {
+                    "starttime": "12:15",
+                    "endtime": "16:30",
+                    "title": "Fourball Comp",
+                    "subtitle": "Course"
+                },
+                {
+                    "starttime": "17:30",
+                    "endtime": "Late",
+                    "title": "Dinner & Drinks",
+                    "subtitle": "Bar & Restaurant"
+                },
+                {
+                    "starttime": "09:00",
+                    "endtime": "10:30",
+                    "title": "Breakfast",
+                    "subtitle": "Dining Room"
+                },
+                {
+                    "starttime": "10:45",
+                    "endtime": "11:30",
+                    "title": "Warmup",
+                    "subtitle": "Range"
+                },
+                {
+                    "starttime": "11:50",
+                    "endtime": "16:00",
+                    "title": "Singles",
+                    "subtitle": "Course"
+                },
+                {
+                    "starttime": "16:45",
+                    "endtime": "17:30",
+                    "title": "Prize Giving",
+                    "subtitle": "Spike Bar"
+                }
+            ],
+            "option1": {
+                "name": "Glove Size",
+                "options": [
+                    {
+                        "choice": "S"
+                    },
+                    {
+                        "choice": "M"
+                    },
+                    {
+                        "choice": "ML"
+                    },
+                    {
+                        "choice": "L"
+                    }
+                ]
+            },
+            "gallery": [
+                {
+                    "src": "images/gallery/1st.jpg",
+                    "desc": "1st Hole"
+                },
+                {
+                    "src": "images/gallery/1st_panorama.jpg",
+                    "desc": "1st Hole Panorama"
+                },
+                {
+                    "src": "images/gallery/10th_panorama.jpg",
+                    "desc": "10th Hole"
+                },
+                {
+                    "src": "images/gallery/17th_panorama.jpg",
+                    "desc": "17th Hole"
+                },
+                {
+                    "src": "images/gallery/18th.jpg",
+                    "desc": "18th down the hill"
+                }
+            ],
+            "option2": {
+                "name": "Option",
+                "options": [
+                    {
+                        "choice": "2 Rounds 1 Night"
+                    },
+                    {
+                        "choice": "2 Rounds, 2 Nights"
+                    },
+                    {
+                        "choice": "Sunday Round"
+                    }
+                ]
+            },
+            "address": "Rycote Ln, Milton Common, Oxfordshire OX9 2PU",
+            "website": "theoxfordshire.com",
+            "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39535.00628037588!2d-1.0528576714739708!3d51.734171319198346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876ec5a134242ab%3A0xd18e13929460269a!2sThe+Oxfordshire+Golf+Club!5e0!3m2!1sen!2suk!4v1461434941157"
+        },
+        {
+            "name": "bearwood",
+            "title": "Mizuno Autumn Finale",
+            "date": "24 September",
+            "course": "Bearwood Lakes",
+            "county": "Berkshire",
+            "description": "After the northern and southern events one final single day event to see who walks away with the end of season title.",
+            "bullets": [
+                {
+                    "info": "Singles competition, with big prizes available!"
+                },
+                {
+                    "info": "Held at the exculsive Bearwood Lakes Golf Club"
+                },
+                {
+                    "info": "Access to a Mizuno Performance Centre"
+                }
+            ],
+            "costs": [
+                {
+                    "option": "1 Round, 2 Course lunch",
+                    "cost": "Â£90*"
+                }
+            ],
+            "attendees": [
+                {
+                    "uname": "chrism_s",
+                    "handicap": "21"
+                },
+                {
+                    "uname": "OhBoy!",
+                    "handicap": "8"
+                },
+                {
+                    "uname": "Nurburgring151",
+                    "handicap": "14.8"
+                },
+                {
+                    "uname": "RobCH",
+                    "handicap": "17"
+                },
+                {
+                    "uname": "MX Man",
+                    "handicap": "10"
+                },
+                {
+                    "uname": "Wotsit",
+                    "handicap": "19"
+                },
+                {
+                    "uname": "Stewart57",
+                    "handicap": "11.9"
+                },
+                {
+                    "uname": "hairy essex bloke",
+                    "handicap": "11"
+                },
+                {
+                    "uname": "PaulBoy",
+                    "handicap": "5"
+                },
+                {
+                    "uname": "Trojan615",
+                    "handicap": "8"
+                },
+                {
+                    "uname": "andyem",
+                    "handicap": "9"
+                },
+                {
+                    "uname": "eddzoid",
+                    "handicap": "17"
+                },
+                {
+                    "uname": "Zombie ",
+                    "handicap": "17"
+                }
+            ],
+            "schedule": [
+                {
+                    "starttime": "09:00",
+                    "endtime": "10:00",
+                    "title": "Arrive & Breakfast",
+                    "subtitle": "Dining Room"
+                },
+                {
+                    "starttime": "10:00",
+                    "endtime": "11:30",
+                    "title": "Fittings & Warmup",
+                    "subtitle": "Performance Centre"
+                },
+                {
+                    "starttime": "11:30",
+                    "endtime": "12:45",
+                    "title": "Buffet Lunch",
+                    "subtitle": "Course"
+                },
+                {
+                    "starttime": "13:00",
+                    "endtime": "17:00",
+                    "title": "Singles Comp",
+                    "subtitle": "Followed by Prize Giving"
+                }
+            ],
+            "option1": {
+                "name": "Glove Size",
+                "options": [
+                    {
+                        "choice": "S"
+                    },
+                    {
+                        "choice": "M"
+                    },
+                    {
+                        "choice": "ML"
+                    },
+                    {
+                        "choice": "L"
+                    }
+                ]
+            },
+            "option2": {
+                "name": "Fitting",
+                "options": [
+                    {
+                        "choice": "Interested in a fitting"
+                    },
+                    {
+                        "choice": "No thanks"
+                    }
+                ]
+            },
+            "address": "Bearwood Lakes Golf Club, Bearwood Rd, Sindlesham, Wokingham, West Berkshire, RG41 4SJ",
+            "website": "bearwoodlakes.co.uk",
+            "gmap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19909.097938528215!2d-0.8942858!3d51.4097198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876839390337989%3A0x81366cad17777514!2sBearwood+Lakes+Golf+Club!5e0!3m2!1sen!2suk!4v1461435966286"
+        }
+    ]
+}

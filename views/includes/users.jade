@@ -1,0 +1,10 @@
+section#schedule.section.schedule
+  .container
+    .row
+      .com-ld-12
+        h2.section-title.text-center Registered Players
+    .row
+        .col-md-3.col-sm-3(ng-repeat="user in users")
+          .player-box
+            h4 {{user.uname}}
+            p Handicap: {{user.handicap}}

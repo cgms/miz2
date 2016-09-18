@@ -1,0 +1,17 @@
+section#gallery.section.location(smooth-scroll='')
+  .container(ng-if="photos.length > 0 ")
+    .row
+      .com-ld-12
+        h2.section-title.text-center Gallery
+    .row     
+      .col-md-12.col-sm-12.slider
+        // enumerate all photos
+        img.img-responsive(ng-repeat='photo in photos', ng-swipe-right='showPrev()', ng-swipe-left='showNext()', ng-show='isActive($index)', ng-src='{{photo.src}}',alt='{{photo.desc}}')
+        a.left.carousel-control(href='',ng-click='showPrev()')
+          span.icon-prev
+        a.right.carousel-control(href='',ng-click='showNext()')
+          span.icon-next
+        // extra navigation controls
+        ul.galnav
+          li(ng-repeat='photo in photos', ng-class="{'active':isActive($index)}")
+            img(src='{{photo.src}}', alt='{{photo.desc}}', title='{{photo.desc}}', ng-click='showPhoto($index);')

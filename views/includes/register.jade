@@ -1,0 +1,38 @@
+section#registration.section.registration
+  .container
+    .row
+      .col-md-12
+        h3.section-title Registration
+    form#registration-form(action='#')
+      .row
+        #registration-msg.col-md-12(style='display:none;')
+          .alert
+          div.text-center
+            a.btn.btn-blue(href='http://paypal.me/chrisms/25', target='_new') Pay via PayPal
+          br
+        .col-sm-6
+          span#event(style='display:none;')
+             {{ev.name}}
+          .form-group
+            input#fname.form-control(type='text', placeholder='First Name', name='fname', required='')
+          .form-group
+            input#lname.form-control(type='text', placeholder='Last Name', name='lname', required='')
+          .form-group
+            input#email.form-control(type='email', placeholder='Email', name='email', required='')
+          .form-group
+            input#cell.form-control(type='text', placeholder='Phone', name='cell', required='')
+        .col-sm-6
+          .form-group
+            input#uname.form-control(type='text', placeholder='Forum Name', name='uname', required='')
+          .form-group
+            input#handicap.form-control(type='text', placeholder='Handicap', name='handicap', required='')
+          .form-group
+            select#option1.form-control(name='option1', required='')
+              option(readonly='') {{option1.name}}
+              option(ng-repeat="option in option1.options", value="{{option.choice}}"){{option.choice}}
+          .form-group
+            select#option2.form-control(name='option2', required='')
+              option(readonly='') {{option2.name}}
+              option(ng-repeat="option in option2.options", value="{{option.choice}}"){{option.choice}}
+      .text-center.mt20
+        button#registration-submit-btn.btn.btn-blue() Submit

@@ -1,0 +1,14 @@
+section#schedule.section.schedule
+  .container
+    .row
+      .com-ld-12
+        h2.section-title.text-center Plan
+    .row
+        .col-md-3.col-sm-3(ng-repeat="schedule in schedules")
+          .schedule-box
+            .time
+              time {{schedule.starttime}}
+              |  - 
+              time {{schedule.endtime}}
+            h3 {{schedule.title}}
+            p {{schedule.subtitle}}

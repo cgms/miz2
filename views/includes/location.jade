@@ -1,0 +1,17 @@
+section#location.section.location(smooth-scroll='')
+  .container
+    .row
+      .col-md-3.col-sm-3
+        h3.section-title Event Location
+        address
+          p
+            br     
+            | {{ev.address}}
+            br
+            br
+            br
+            a(href='http://{{ev.website}}', target='_new') {{ev.website}}
+      .col-md-3.col-sm-3
+        iframe(ng-src='{{mapURL}}' width='800' height='450' frameborder='0' style='border:0' allowfullscreen='')
+            
+          

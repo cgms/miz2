@@ -1,0 +1,23 @@
+nav#site-nav.navbar.navbar-fixed-top.navbar-custom
+  .container
+    .navbar-header
+      .site-branding
+        a.logo(href='#')
+          img(src='/images/mizuno/miz-logo-small_white.png', alt='Logo')
+          | {{ev.title}}
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-items', aria-expanded='false')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navbar-items.collapse.navbar-collapse(data-spy='scroll', data-target='#site-nav')
+      ul.nav.navbar-nav.navbar-right
+        // navigation menu
+        li.active
+          a(data-scroll='', href='#about') About
+        li
+          a(data-scroll='', href='#registration') Register
+        li
+          a(data-scroll='', href='#schedule') Schedule
+        li
+          a(data-scroll='', href='#location') Location
