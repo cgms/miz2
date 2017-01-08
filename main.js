@@ -9,6 +9,7 @@ var app = express();
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var email = require('./routes/register');
+var spreadsheet = require('./routes/spreadsheet');
 
 
 
@@ -30,6 +31,8 @@ app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/register', email);
+app.use('/spreadsheet', spreadsheet);
+
 
 
 

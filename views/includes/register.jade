@@ -3,12 +3,13 @@ section#registration.section.registration
     .row
       .col-md-12
         h3.section-title Registration
-    form#registration-form(action='#')
+    form#registration-form(ng-submit='submit()')
       .row
         #registration-msg.col-md-12(style='display:none;')
           .alert
           div.text-center
-            a.btn.btn-blue(href='http://paypal.me/chrisms/25', target='_new') Pay via PayPal
+            #paybutton
+              a.btn.btn-blue(href='http://paypal.me/chrisms/{{amount}}', target='_new', style='display:none') Pay via PayPal
           br
         .col-sm-6
           span#event(style='display:none;')

@@ -234,20 +234,20 @@ ul li {
 }
 
 .bg-image-1 {
-  background: url(../images/mizuno/jpx.jpg) no-repeat center center/cover;
+  background: url(../images/mizuno/jpx900.jpg) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-image-2 {
-  background: url(../images/mizuno/mp5.jpg) no-repeat center bottom/cover;
+  background: url(../images/mizuno/woods_banner.jpg) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .bg-image-3 {
-  background: url(../images/mizuno/mp25.jpg) no-repeat center bottom/cover;
+  background: url(../images/mizuno/t7.jpg) no-repeat center bottom/cover;
 }
 .bg-image-3::before {
   background-color: rgba(0, 0, 0, 0.3);
