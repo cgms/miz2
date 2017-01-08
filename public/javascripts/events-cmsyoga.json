@@ -1,0 +1,146 @@
+{
+    "events": [
+        {
+            "name": "oldthorns",
+            "title": "Mizuno Southern Meeting 2017",
+            "date": "2 - 3 September",
+            "course": "Old Thorns",
+            "county": "Hampshire",
+            "deposit": true,
+            "amount": 35,
+            "description": "Each year the members of the Mizuno Golf Forum get together to thrash round a golf course and find out just who can backup their online chat with real world endeavour!",
+            "bullets": [
+                {
+                    "info": "Weekend long competition, with big prizes available!"
+                },
+                {
+                    "info": "Held at the renowned Old Thorns Club in Hampshire"
+                },
+                {
+                    "info": "This year we will be running the main competition across both Saurday and Sunday, allowing for the victor to be the true champion!"
+                },
+                {
+                    "info": "There is also a Friday night option this year for those interested, with a round at a course nearby to get early birds warmed up on Friday."
+                }
+            ],
+            "costs": [
+                {
+                    "option": "1 Night, 2 Rounds, Sharing",
+                    "cost": "£205"
+                },
+                {
+                    "option": "1 Night, 2 Rounds, Single Supplement",
+                    "cost": "£240"
+                },
+                {
+                    "option": "2 Nights, 2 Rounds, Sharing",
+                    "cost": "£275"
+                },
+                {
+                    "option": "2 Nights, 2 Rounds, Single Supplement",
+                    "cost": "£345"
+                }
+            ],
+            "attendees": [
+                {
+                    "uname": "chrism_s",
+                    "handicap": "21"
+                },
+                {
+                    "uname": "chrism_s1",
+                    "handicap": "21"
+                }
+            ],
+            "schedule": [
+                {
+                    "starttime": "Friday 17:30",
+                    "endtime": "22:00",
+                    "title": "Early Arrivals",
+                    "subtitle": " & Carvery"
+                },
+                {
+                    "starttime": "Saturday 11:00",
+                    "endtime": "13:00",
+                    "title": "Main Arrivals",
+                    "subtitle": "Sports Bar"
+                },
+                {
+                    "starttime": "Saturday 13:00",
+                    "endtime": "14:00",
+                    "title": "Warmup",
+                    "subtitle": "Range"
+                },
+                {
+                    "starttime": "Saturday 14:00",
+                    "endtime": "18:30",
+                    "title": "Round 1",
+                    "subtitle": "Course"
+                },
+                {
+                    "starttime": "Saturday 20:00",
+                    "endtime": "22:00",
+                    "title": "Dinner",
+                    "subtitle": "Kings Restaurant"
+                },
+                {
+                    "starttime": "Sunday 08:00",
+                    "endtime": "09:00",
+                    "title": "Breakfast",
+                    "subtitle": "Kings Restaurant"
+                },
+                {
+                    "starttime": "Sunday 10:00",
+                    "endtime": "15:00",
+                    "title": "Day 2 Round",
+                    "subtitle": "Course"
+                },
+                {
+                    "starttime": "Sunday 15:00",
+                    "endtime": "16:00",
+                    "title": "Prize Giving",
+                    "subtitle": "Spots Bar"
+                }
+            ],
+            "option1": {
+                "name": "Glove Size",
+                "options": [
+                    {
+                        "choice": "S"
+                    },
+                    {
+                        "choice": "M"
+                    },
+                    {
+                        "choice": "ML"
+                    },
+                    {
+                        "choice": "L"
+                    }
+                ]
+            },
+            "option2": {
+                "name": "Dietary Requirements",
+                "options": [
+                    {
+                        "choice": "None"
+                    },
+                    {
+                        "choice": "Vegetarian"
+                    },
+                    {
+                        "choice": "Vegan"
+                    },
+                    {
+                        "choice": "Gluten"
+                    },
+                    {
+                        "choice": "Other (please email Chris seperately)"
+                    }
+                ]
+            },
+            "address": "Old Thorns Golf & Country Estate, Griggs Green, Liphook, Hampshire, GU30 7PE",
+            "website": "http://www.oldthorns.com/",
+            "gmap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14180.296470304173!2d-0.8481927389399341!3d51.07623965823828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14a3d3b0e5165544!2sOld+Thorns+Golf+%26+Country+Estate!5e0!3m2!1sen!2suk!4v1483558264010"
+        }
+    ]
+}
