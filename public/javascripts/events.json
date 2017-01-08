@@ -114,16 +114,16 @@
                 "name": "Accommodation",
                 "options": [
                     {
-                        "option": "1 Night, 2 Rounds, Sharing"
+                        "choice": "1 Night, 2 Rounds, Sharing"
                     },
                     {
-                        "option": "1 Night, 2 Rounds, Single Supplement"
+                        "choice": "1 Night, 2 Rounds, Single Supplement"
                     },
                     {
-                        "option": "2 Nights, 2 Rounds, Sharing"
+                        "choice": "2 Nights, 2 Rounds, Sharing"
                     },
                     {
-                        "option": "2 Nights, 2 Rounds, Single Supplement"
+                        "choice": "2 Nights, 2 Rounds, Single Supplement"
                     }
                 ]
             },
