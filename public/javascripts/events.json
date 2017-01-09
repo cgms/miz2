@@ -42,6 +42,10 @@
                 }
             ],
             "attendees": [
+                {
+                    "uname": "chrism_s",
+                    "handicap": "21"
+                }
             ],
             "schedule": [
                 {
@@ -83,7 +87,7 @@
                 {
                     "starttime": "Sunday 10:00",
                     "endtime": "15:00",
-                    "title": "Day 2 Round",
+                    "title": "Round 2",
                     "subtitle": "Course"
                 },
                 {

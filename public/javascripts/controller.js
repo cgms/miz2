@@ -47,7 +47,7 @@ App.controller('EventControl', function ($scope, $sce, $http, $location) {
                 "handicap": $("#handicap").val(),
                 "option1": $("#option1").val(),
                 "option2": $("#option2").val(),
-                "course": eventData.course
+                "course": $scope.course
             };
 
             $http.post("./register", user).then
@@ -114,6 +114,7 @@ App.controller('EventControl', function ($scope, $sce, $http, $location) {
                     $scope.photos = eventData.gallery;
                     $scope.deposit = eventData.deposit;
                     $scope.amount = eventData.amount;
+                    $scope.course = eventData.course;
                     $scope.mapURL = $sce.trustAsResourceUrl(eventData.gmap);
                 }
                 else {
