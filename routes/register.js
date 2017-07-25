@@ -94,6 +94,7 @@ function sendRegMail(user) {
           "lname": user.lname,
           "handicap": user.handicap,
           "uname": user.uname,
+          "email": user.email,
           "option1": user.option1,
           "option2": user.option2
         }
