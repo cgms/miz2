@@ -15,4 +15,8 @@ router.get('/oldthorns', function(req, res, next) {
   res.render('event', { title: 'Express' });
 });
 
+router.get('/cotswolds', function(req, res, next) {
+  res.render('event', { title: 'Express' });
+});
+
 module.exports = router;

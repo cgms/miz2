@@ -46,7 +46,7 @@ function sendCongratsMail(user) {
 
   var trans = {
     "content": {
-      "from": 'chris@mastertonsmith.uk',
+      "from": 'chris@cmsdes.co.uk',
       "template_id": "regsuccess"
     },
     "substitution_data": {
@@ -77,7 +77,7 @@ function sendCongratsMail(user) {
 function sendRegMail(user) {
   var trans = {
     "content": {
-      "from": 'chris@mastertonsmith.uk',
+      "from": 'chris@cmsdes.co.uk',
       "template_id": "newreg"
     },
     "substitution_data": {

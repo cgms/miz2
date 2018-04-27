@@ -10,7 +10,7 @@ router.use(bodyParser.json());
 router.post('/', function (req, res, next) {
     // spreadsheet key is the long id in the sheets URL 
     try {
-        var doc = new GoogleSpreadsheet('1Lh6GbEBaq9dXXtJLm7hET6q_NIHc0Plk-Hoi5qKYEjI');
+        var doc = new GoogleSpreadsheet('1Rzyj4alMKpzX9fJW7epQXAbcOCILwORBjCLsRxUjjD0');
         var sheet;
 
         async.series([

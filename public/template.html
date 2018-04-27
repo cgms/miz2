@@ -5,14 +5,38 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Registration Successful</title>
     <style type="text/css">
-        body {margin: 0; padding: 0; min-width: 100%!important;}
-        .content {width: 100%; max-width: 600px;}  
-        .subhead {font-size: 15px; color: #ffffff; font-family: sans-serif; letter-spacing: 10px;}
-.h1 {font-size: 33px; line-height: 38px; font-weight: bold;
-    font-family: sans-serif;
-}
-.h1, .h2, .bodycopy {color: #153643; font-family: sans-serif;}
-        </style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 100%!important;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .subhead {
+            font-size: 15px;
+            color: #ffffff;
+            font-family: sans-serif;
+            letter-spacing: 10px;
+        }
+
+        .h1 {
+            font-size: 33px;
+            line-height: 38px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        .h1,
+        .h2,
+        .bodycopy {
+            color: #153643;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 
 <body b>
@@ -23,24 +47,62 @@
             <![endif]-->
     <table width="100%" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
         <tr>
+            <td align="center">
+                <img src="http://mizzyevents.co.uk/images/mizuno/miz-logo-small.png" width="100px">
+            </td>
+        </tr>
+        <tr>
             <td>
                 <table class="content" align="center" cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                        <td class="header">
-                            <h1>Congratulations {{fname}} on registering for {{event}}</h1>
+                        <td>
+                            <h3>New registration from {{uname}} to attend {{event}}</h3>
                         </td>
                     </tr>
                     <tr>
-                        <td class="subhead"></td>
-                        <p>Keep an eye on the forum pages for more info about the weekend.</p>
-            </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Cheers, Chris/p>
-                </td>
-            </tr>
-            </table>
+                        <td>
+                            <p/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FName</td>
+                        <td>{{fname}}</td>
+                    </tr>
+                    <tr>
+                        <td>LName</td>
+                        <td>{{lname}}</td>
+                    </tr>
+                    <tr>
+                        <td>Handicap</td>
+                        <td>{{handicap}}</td>
+                    </tr>
+                    <tr>
+                        <td>UName</td>
+                        <td>{{uname}}</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>{{uemail}}</td>
+                    </tr>
+                    <tr>
+                        <td>Option1</td>
+                        <td>{{option1}}</td>
+                    </tr>
+                    <tr>
+                        <td>Option2</td>
+                        <td>{{option2}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="signature">
+                            Cheers, Chris M-S
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>
