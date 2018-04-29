@@ -31,6 +31,38 @@
                 }
             ],
             "attendees": [
+                {
+                    "uname": "chrism_s",
+                    "handicap": "21"
+                },
+                {
+                    "uname": "Copley",
+                    "handicap": "13"
+                },
+                {
+                    "uname": "Fluffywan",
+                    "handicap": "18"
+                },
+                {
+                    "uname": "mannixk",
+                    "handicap": "18"
+                },
+                {
+                    "uname": "Stewart 57",
+                    "handicap": "11"
+                },
+                {
+                    "uname": "eddzoid",
+                    "handicap": "14"
+                },
+                {
+                    "uname": "hairy essex bloke",
+                    "handicap": "12"
+                },
+                {
+                    "uname": "Zombie ",
+                    "handicap": "16"
+                }
             ],
             "schedule": [
                 {
