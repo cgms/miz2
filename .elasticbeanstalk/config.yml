@@ -1,9 +1,9 @@
 branch-defaults:
   default:
-    environment: miz2-new
+    environment: Miz2-2018-prod
     group_suffix: null
   master:
-    environment: miz2017
+    environment: Miz2-2018-prod
 global:
   application_name: miz2
   default_ec2_keyname: null

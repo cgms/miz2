@@ -1,10 +1,12 @@
 var App = angular.module('App', ['angularSmoothscroll', 'ngAnimate', 'ngTouch'], function ($locationProvider) {
     $locationProvider.html5Mode(true);
 });
+var AWS = require('aws-sdk')
 
 App.controller('EventControl', function ($scope, $sce, $http, $location) {
 
-    loadEvent();
+   // loadEvent();
+    loadDynEvent();
 
 
     $scope.myInterval = 3000;
@@ -87,8 +89,59 @@ App.controller('EventControl', function ($scope, $sce, $http, $location) {
             $('#registration-msg').show();
         }
 
+    function loadDynEvent() {
+        AWS.config.loadFromPath('../../routes/config.json');
 
-    }
+        ddb = AWS.DynamoDB({apiVersion: '2012-10-08'});
+
+        var params = {
+            TableName: 'events',
+            Key: {
+                'name': $location.path().substring(1),
+            }
+        };
+        ddb.getItem(params, function(err, data) {
+            if (err) {
+                eventData = {
+                    "name": "error",
+                    "title": "No Event Selected",
+                    "date": "",
+                    "course": "",
+                    "county": "",
+                    "deposit": "",
+                    "amount": "",
+                    "description": "",
+                }
+                $scope.ev = eventData;
+
+                $scope.bullets = eventData.bullets;
+                $scope.costs = eventData.costs;
+                $scope.users = eventData.attendees;
+                $scope.schedules = eventData.schedule;
+                $scope.option1 = eventData.option1;
+                $scope.option2 = eventData.option2;
+                $scope.photos = eventData.gallery;
+                $scope.deposit = eventdata.amount;
+            } else {
+
+                $scope.ev = data.Items[0];
+                $scope.bullets = data.Items[0].bullets;
+                $scope.costs = data.Items[0].costs;
+                $scope.schedules = data.Items[0].schedule;
+                $scope.option1 = data.Items[0].option1;
+                $scope.option2 = data.Items[0].option2;
+                $scope.photos = data.Items[0].gallery;
+                $scope.deposit = data.Items[0].deposit;
+                $scope.amount = data.Items[0].amount;
+                $scope.course = data.Items[0].course;
+                $scope.mapURL = $sce.trustAsResourceUrl(data.Items[0].gmap);
+                console.log("Error", err);
+            }
+        })
+    } 
+    
+
+
     function loadEvent() {
         $http.get('./javascripts/events.json')
             .then(function (res) {
@@ -143,7 +196,7 @@ App.controller('EventControl', function ($scope, $sce, $http, $location) {
 
             });
     }
-});
+};
 
 
 App.controller('IndexControl', function ($scope, $http) {
@@ -184,3 +237,4 @@ function checkDuplicate(uname, allusers) {
     //Do something
 
 }
+})
